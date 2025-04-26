@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e1e8e3;
+    color: #2f3e34;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #4a5a47;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+/* Styling Navigasi */
+nav {
+background-color: #728c69; /* Warna hijau sage */
+padding: 10px;
+text-align: center;
+}
+
+nav ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+nav ul li {
+display: inline;
+margin: 0 15px;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+
+nav ul li a:hover {
+text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+.sidebar {
+    width: 25%;
+    border-radius: 10px;
+    background: #a8bfa0;
+    padding: 20px;
+  }
+
+.content {
+    width: 75%;
+    border-radius: 10px;
+    background: white;
+    padding: 20px;
+}
+
+.content h2 {
+    text-align: center;
+    color: #2f3e34;
+}
+
+.content table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+thead {
+    background-color: #a8bfa0; 
+}
+
+th {
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 80px;
+    font-size: large;
+}
+
+td {
+    width: 33%;
+    padding:20px;
+    border: 1;
+    border-radius: 10px;
+    background: #cfd8c7;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #4a5a47;
+    color: white;
+    font-weight: bold;
+}
+
+/* Form Kontak */
+#formWA{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 30px 25px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    width:auto;
+}
+
+#formWA label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+#formWA input{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+#formWA textarea{
+    width: 100%;
+    padding: 12px;
+    border: px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#formWA input:focus,
+#fowmWA textarea:focus{
+    border-color: #25D366;
+    outline: none;
+    box-shadow: 0 0 4px rgba(37, 211, 102, 0.3);
+}
